@@ -17,7 +17,7 @@ for season in seasons:
             password_list.append(f"{season}{year}")
             password_list.append(f"{season.lower()}{year}")
 
-output_path = "pnpt/wordlists/custom-wordlists/seasons_passwords.txt"
+output_path = "wordlists/custom-wordlists/seasons_passwords.txt"
 with open(output_path, "w") as f:
     for password in password_list:
         f.write(password + "\n")
