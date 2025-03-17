@@ -1,1 +1,1 @@
-# weather_wordlist.py
+# CustomWordlists
